@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test deploy</title>
+</head>
+<body>
+  <h1>Test deploy aplikace</h1>
+  <button id="test-btn">Klikni na mě</button>
+
+  <script>
+    document.getElementById('test-btn').addEventListener('click', () => {
+      alert('Aplikace funguje!');
+    });
+  </script>
+</body>
+</html>
